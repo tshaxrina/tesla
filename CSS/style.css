@@ -106,18 +106,15 @@ border-radius: 50%;
     width: 110px;
     height: 110px;
     top: 338px;
-    left: 870px;
+    left: 800px;
     position: absolute
 }
 .wheel1 {
     width: 110px;
     height: 110px;
     top: 338px;
-    right: 845px;
+    right: 819px;
     position: absolute
-}
-.bg {
-    position: relative;
 }
 img.wheel, img.wheel1{
     animation: 1s linear 0s normal none infinite running wheel;
@@ -176,4 +173,10 @@ img.wheel, img.wheel1{
   background-repeat: no-repeat;
   background-size: contain;
   transition: .0.5s ease;
+}
+.car {
+  height: 700px;
+  width: 1250px;
+  background-color: aqua;
+  position: relative;
 }
